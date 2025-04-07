@@ -79,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: action/checkout@v4
+    - uses: actions/checkout@v4
     - name: Set up nodeJS
       # Это готовый воркфлоу для установки Node.js на раннер
       uses: action/setup-node@v4
